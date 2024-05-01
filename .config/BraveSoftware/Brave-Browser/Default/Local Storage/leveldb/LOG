@@ -1,6 +1,0 @@
-2024/04/30-18:15:40.648 4 Reusing MANIFEST /home/nebuu/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
-2024/04/30-18:15:40.649 4 Recovering log #11
-2024/04/30-18:15:40.650 4 Reusing old log /home/nebuu/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000011.log 
-2024/04/30-18:46:02.771 5 Level-0 table #15: started
-2024/04/30-18:46:02.775 5 Level-0 table #15: 18772 bytes OK
-2024/04/30-18:46:02.777 5 Delete type=0 #11
