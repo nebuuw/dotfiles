@@ -16,8 +16,18 @@ zstyle :compinstall filename '/home/nebuu/.zshrc'
 
 autoload -Uz compinit
 compinit
+
 # End of lines added by compinstall
+
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/dotfiles/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/dotfiles/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+plugins=(
+  git zsh-autosuggestions
+  git zsh-syntax-highlighting
+  )
+
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

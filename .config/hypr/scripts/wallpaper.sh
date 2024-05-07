@@ -1,7 +1,7 @@
 transition_type="wipe"
 
 wallpaper=$HOME/dotfiles/hypr/wallpapers
-pics=($(ls ${DIR}))
+pics=($(ls ${wallpaper}))
 
 randompics=${pics[ $RANDOM % {#pics[@]} ]}
 
