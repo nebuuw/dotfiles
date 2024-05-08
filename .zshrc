@@ -31,6 +31,9 @@ plugins=(
 #starship
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/dotfiles/.config/starship.toml
+
+#zoxide
+eval "$(zoxide init --cmd cd zsh)"
 #FOR Powerlevel10k
 # ZSH_THEME="powerlevel10k/powerlevel10k"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
